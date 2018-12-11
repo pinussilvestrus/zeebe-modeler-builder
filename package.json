@@ -1,0 +1,22 @@
+{
+  "name": "zeebe-modeler-builder",
+  "version": "1.0.0",
+  "description": "WIP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinussilvestrus/zeebe-modeler-builder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pinussilvestrus/zeebe-modeler-builder/issues"
+  },
+  "homepage": "https://github.com/pinussilvestrus/zeebe-modeler-builder#readme",
+  "dependencies": {
+    "execa": "^1.0.0"
+  }
+}
