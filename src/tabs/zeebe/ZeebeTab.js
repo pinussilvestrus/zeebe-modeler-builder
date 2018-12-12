@@ -1,7 +1,7 @@
 import ZeebeEditor from './ZeebeEditor';
-import XMLEditor from '/Users/niklas.kiefer/Github/camunda-modeler/client/src/app/tabs/xml';
+import XMLEditor from 'camunda-modeler-client/src/app/tabs/xml';
 
-import { createTab } from '/Users/niklas.kiefer/Github/camunda-modeler/client/src/app/tabs/EditorTab';
+import { createTab } from 'camunda-modeler-client/src/app/tabs/EditorTab';
 
 
 const ZeebeTab = createTab('ZeebeTab', [

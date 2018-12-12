@@ -1,25 +1,25 @@
 import React, { Component } from 'react';
 
-import { Fill } from '/Users/niklas.kiefer/Github/camunda-modeler/client/src/app/slot-fill';
+import { Fill } from 'camunda-modeler-client/src/app/slot-fill';
 
 import {
   Button,
   DropdownButton,
   Icon,
   Loader
-} from '/Users/niklas.kiefer/Github/camunda-modeler/client/src/app/primitives';
+} from 'camunda-modeler-client/src/app/primitives';
 
 import {
   WithCache,
   WithCachedState,
   CachedComponent
-} from '/Users/niklas.kiefer/Github/camunda-modeler/client/src/app/cached';
+} from 'camunda-modeler-client/src/app/cached';
 
-import PropertiesContainer from '/Users/niklas.kiefer/Github/camunda-modeler/client/src/app/tabs/PropertiesContainer';
+import PropertiesContainer from 'camunda-modeler-client/src/app/tabs/PropertiesContainer';
 
 import ZeebeModeler from './modeler';
 
-import { active as isInputActive } from '/Users/niklas.kiefer/Github/camunda-modeler/client/src/util/dom/isInput';
+import { active as isInputActive } from 'camunda-modeler-client/src/util/dom/isInput';
 
 import getZeebeContextMenu from './getZeebeContextMenu';
 
@@ -29,7 +29,7 @@ import getZeebeWindowMenu from './getZeebeWindowMenu';
 
 import css from './ZeebeEditor.less';
 
-import generateImage from '/Users/niklas.kiefer/Github/camunda-modeler/client/src/app/util/generateImage';
+import generateImage from 'camunda-modeler-client/src/app/util/generateImage';
 
 const COLORS = [{
   title: 'White',

@@ -8,14 +8,14 @@ import {
   AppParent,
   KeyboardBindings,
   TabsProvider
-} from '/Users/niklas.kiefer/Github/camunda-modeler/client/src/app';
+} from 'camunda-modeler-client/src/app';
 
 import {
   backend,
   dialog,
   fileSystem,
   workspace
-} from '/Users/niklas.kiefer/Github/camunda-modeler/client/src/remote';
+} from 'camunda-modeler-client/src/remote';
 
 import {
   getProvidersList

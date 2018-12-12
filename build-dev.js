@@ -6,8 +6,8 @@
 const execa = require('execa');
 
 // todo(pinussilvestrus): how to properly handle as external module?
-const BACKEND_MODULE_PATH = '/Users/niklas.kiefer/Github/camunda-modeler/app';
-const CLIENT_MODULE_PATH = '/Users/niklas.kiefer/Github/camunda-modeler/client';
+const BACKEND_MODULE_PATH = './node_modules/camunda-modeler';
+const CLIENT_MODULE_PATH = './node_modules/camunda-modeler-client';
 
 const startClient = async () => {
   // todo(pinussilvestrus): use webpack directly ?

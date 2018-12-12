@@ -6,7 +6,7 @@ import {
   getSelectionEntries,
   getToolEntries,
   getUndoRedoEntries
-} from '/Users/niklas.kiefer/Github/camunda-modeler/client/src/app/tabs/getEditMenu';
+} from 'camunda-modeler-client/src/app/tabs/getEditMenu';
 
 function getAlignDistributeEntries({
   align,

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-import Slot from '/Users/niklas.kiefer/Github/camunda-modeler/client/src/app/slot-fill/Slot';
+import Slot from 'camunda-modeler-client/src/app/slot-fill/Slot';
 
 import css from './EmptyTab.less';
 
 import {
   Tab
-} from '/Users/niklas.kiefer/Github/camunda-modeler/client/src/app/primitives';
+} from 'camunda-modeler-client/src/app/primitives';
 
 
 export default class EmptyTab extends Component {
